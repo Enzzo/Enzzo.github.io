@@ -14,11 +14,20 @@ article{
 aside{
 	float:right;
 	width:22%;
+	border-left:1px solid black;
+	padding-left:8px;
+	background:#f1f1f1;
 }
-footer{
-	text-align:center;
-	clear:both;
+header, footer{
+	text-align:center;	
 	margin-bottom:0px;
 	font-size:16pt;
 	font-weight:bold;
+}
+footer{
+	position:absolute;
+	clear:both;
+	border-top:1px solid black;
+	bottom:5%;
+	left:50%
 }
