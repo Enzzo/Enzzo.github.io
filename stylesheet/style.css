@@ -1,6 +1,5 @@
-{
+*{
 	border:1px solid red;
-	margin:.5%;
 }
 header{
 	text-align:center;
@@ -30,4 +29,7 @@ footer{
 	border-top:1px solid black;
 	bottom:5%;
 	left:50%
+}
+section.pictures{
+	line-height:0px;
 }
